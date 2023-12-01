@@ -16,5 +16,28 @@ namespace SportsiTim
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new IgracForm().Show();
+        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new TimForm().Show();
+          
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new IgracuTimu().Show();
+         
+        }
+
+
+        
     }
-}
+    }
+  
+

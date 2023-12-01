@@ -26,7 +26,7 @@ namespace SportsiTim
 
         private void button6_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+        
             Close();
 
         }

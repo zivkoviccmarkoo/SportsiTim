@@ -45,6 +45,7 @@
             this.textBox1.Size = new System.Drawing.Size(444, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Unesi ime igraca";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -53,6 +54,7 @@
             this.textBox2.Size = new System.Drawing.Size(444, 20);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Unesi prezime igraca";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -61,6 +63,7 @@
             this.textBox3.Size = new System.Drawing.Size(444, 20);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "Unesi OIB igraca";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -78,6 +81,7 @@
             this.textBox5.Size = new System.Drawing.Size(444, 20);
             this.textBox5.TabIndex = 4;
             this.textBox5.Text = "Unesi dob igraca";
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // button1
             // 
@@ -88,6 +92,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Dodaj";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -107,6 +112,7 @@
             this.textBox6.Size = new System.Drawing.Size(444, 20);
             this.textBox6.TabIndex = 15;
             this.textBox6.Text = "Unesi kontakt igraca";
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // DodajIgraca
             // 

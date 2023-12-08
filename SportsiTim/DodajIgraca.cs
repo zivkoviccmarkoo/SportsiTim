@@ -15,7 +15,7 @@ namespace SportsiTim
     public partial class DodajIgraca : Form
     {
 
-        private const string Igrac = "data.txt"; // Specify your file name
+        private const string Igrac = "C:\\Users\\Ucenik\\Desktop\\nesto.txt"; // Specify your file name
         private IgracForm dodajIgracaform;
         public DodajIgraca()
         {
@@ -37,20 +37,35 @@ namespace SportsiTim
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string textToAdd = textBox1.Text;
+            string textToAdd1 = textBox1.Text;
+            string textToAdd2 = textBox2.Text;
+            string textToAdd3 = textBox3.Text;
+            string textToAdd4 = textBox4.Text;
+            string textToAdd5 = textBox5.Text;
+            string textToAdd6 = textBox6.Text;
 
             try
             {
                 // Append the text to the file using StreamWriter
                 using (StreamWriter writer = new StreamWriter(Igrac, true))
                 {
-                    writer.WriteLine(textToAdd);
+                    writer.WriteLine(textToAdd1 , textToAdd2) ;
+                    writer.WriteLine(textToAdd2);
+                    writer.WriteLine(textToAdd3);
+                    writer.WriteLine(textToAdd4);
+                    writer.WriteLine(textToAdd5);
+                    writer.WriteLine(textToAdd6);
                 }
 
                 MessageBox.Show("Text added to file successfully!");
 
                 // Clear the TextBox after adding to the file
                 textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+                textBox6.Clear();
             }
             catch (Exception ex)
             {

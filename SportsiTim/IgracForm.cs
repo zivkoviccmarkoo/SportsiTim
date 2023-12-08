@@ -24,15 +24,15 @@ namespace SportsiTim
         {
             try
             {
-                listBox.Items.Clear();
+                Igrac.Items.Clear();
 
                 // Read data from the file using StreamReader and populate the ListBox
-                using (StreamReader reader = new StreamReader(Igrac))
+                using (StreamReader reader = new StreamReader("C:\\Users\\Ucenik\\Desktop\\nesto.txt"))
                 {
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {
-                        listBox.Items.Add(line);
+                        Igrac.Items.Add(line);
                     }
                 }
 

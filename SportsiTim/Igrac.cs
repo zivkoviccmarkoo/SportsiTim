@@ -14,7 +14,7 @@ namespace SportsiTim
         public string adresa { get; set; }
         public override string ToString()
         {
-            return "Prezime" + Prezime + "Ime" + "Adresa" + adresa;
+            return  Prezime + " - " +Ime+ " - " + adresa;
 
         }
         public int CompareTo(object obj)

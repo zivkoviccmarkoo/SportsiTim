@@ -1,0 +1,15 @@
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\bin\Debug\SportsiTim.exe.config
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\bin\Debug\SportsiTim.exe
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\bin\Debug\SportsiTim.pdb
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.csproj.AssemblyReference.cache
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.DodajIgraca.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.DodajTim.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.Form1.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.IgracForm.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.IgracuTimu.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.Properties.Resources.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.TimForm.resources
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.csproj.GenerateResource.cache
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.csproj.CoreCompileInputs.cache
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.exe
+C:\Users\Ucenik\source\repos\SportsiTim\SportskiTim\SportsiTim\obj\Debug\SportsiTim.pdb
